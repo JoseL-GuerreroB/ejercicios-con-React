@@ -1,0 +1,26 @@
+.Tecla{
+    height: 75px;
+    display: flex;
+    flex: 1 1;
+    font-weight: bold;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: #44f;
+    color: #006;
+    border: 1px solid #006;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 5px;
+    box-shadow: 5px -5px 3px #0065, -5px 5px 3px #0065,-5px -5px 3px #0065, 5px 5px 3px #0065;
+}
+.Tecla:hover{
+    background-color: #006;
+    color: #44f;
+    border: 1px solid #44f;
+    box-shadow: 5px -5px 3px #44f, -5px 5px 3px #44f,-5px -5px 3px #44f, 5px 5px 3px #44f;
+}
+.operador{
+    background-color: #633;
+    color: #bbf;
+}

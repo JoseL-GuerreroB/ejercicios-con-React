@@ -1,0 +1,35 @@
+.tarea-formulario{
+    width: 90%;
+    height: 50px;
+    margin: 15px;
+    box-sizing: border-box;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+.tarea-input{
+    font-size: 20px;
+}
+.tarea-submit{
+    padding: 5px;
+    font-size: 20px;
+    background-color: blue;
+    color: white;
+    margin: 0 5px 0 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.tarea-submit:hover{
+    background-color: #22f;
+}
+
+
+@media only screen and (max-width: 850px){
+    .tarea-formulario{
+        flex-direction: column;
+        align-items: center;
+    }
+    .tarea-input{
+        margin-bottom: 20px;
+    }
+}
